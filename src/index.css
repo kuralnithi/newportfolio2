@@ -1,0 +1,274 @@
+.typed{
+font-size: 60px;
+font-weight:bolder;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.resume{
+  position: fixed;
+  top:82%;
+  left : 5%;
+
+}
+
+.navbar {
+  width: 100vw;
+}
+
+* {
+  background-size: cover;
+}
+
+.textarea {
+
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  overflow: hidden;
+
+
+}
+
+.textarea h1,
+h2,
+h3 {
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+
+  height: 100vh;
+  width: 100vw;
+  
+  background-image: url(./Components/img2.jpg);
+
+}
+
+.textarea {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.skill-list {
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.skill-list:hover {
+  background-color: rgba(52, 152, 219, 0.5);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.skillpage {
+  background: url(./projectScreenshots/skillbg.jpg);
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.skillpage h1 {
+font-family: cursive;
+font-weight: bolder;
+  color: antiquewhite
+}
+
+
+
+.projectpage {
+  height: 100vh;
+  width: 100vw;
+  background: url(./projectScreenshots/portbg.png);
+  overflow: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectpage h1 {
+
+  color: white;
+  font-family: cursive;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+
+.projectpage h3 {
+  font-family: cursive;
+  color:lightslategrey
+}
+
+.project-card {
+
+  height: 95%;
+  background-color:whitesmoke;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.project-card:hover {
+  
+  background-color:cornsilk;
+  transform: scale(1.02);
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.project-links {
+  margin-top: 10px;
+}
+
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  margin-bottom: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.loginpagelink{
+
+  font-size: 12px;
+}
+
+
+.project-link:hover {
+  color: #2980b9;
+}
+
+
+.contactpage {
+  background-image: url(./Components/img4.jpg);
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+
+}
+
+
+.contact-container {
+  padding: 50px;
+
+}
+
+.contact-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact-link:hover {
+  color: #2980b9;
+}
+
+
+.aboutpage {
+  background-image: url(./projectScreenshots/aboutme.jpg);
+  overflow: scroll;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.about-container {
+
+  padding: 50px;
+}
+
+.about-heading {
+  font-weight: bolder;
+  font-family:cursive;
+  margin-bottom: 20px;
+color:lightblue
+}
+
+.about-description {
+ 
+  color:whitesmoke;
+  font-size:xx-large;
+font-weight:100;
+  margin-bottom: 15px;
+background-color:rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+padding-left: 10px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+width: 60%;
+
+}
+
+.btn-download {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-download:hover {
+  background-color: #2980b9;
+}
+
+
+
+
+.highlighted-text {
+  color: #e74c3c;
+}
+
+.skillpage {
+
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list-item::before {
+  color: #27ae60;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+
+@media screen and (max-width:533px) {
+  
+  .hometxt{
+
+font-size:400%;
+
+  }
+}
