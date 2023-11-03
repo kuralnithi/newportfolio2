@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './kuralcvguvi1.pdf'
+import pdf1 from './kuralcvguvi1.pdf'
 
 function Aboutme(props) {
     return (
@@ -13,7 +13,7 @@ function Aboutme(props) {
                 </p>
 
                 <div className="download-button-container">
-                    <a href={pdf} download="KuralNithi_Resume.pdf" class="btn btn-download" data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
+                    <a href={pdf1} download="KuralNithi_Resume.pdf" class="btn btn-download" data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
                 </div>
 
             </div>
