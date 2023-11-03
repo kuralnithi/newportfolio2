@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import pdf1 from './kuralcvguvi1.pdf'
+import pdf from './kuralcvguvi.pdf'
 import Typed from 'typed.js'
 
 function Hero(props) {
@@ -39,7 +39,7 @@ useEffect(()=>{
 
 
 
-                    <a href={pdf1} download="KuralNithi.pdf" className="btn btn-download resume"  data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
+                    <a href={pdf} download="KuralNithi_Resume.pdf" className="btn btn-download resume"  data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
               
 
             </div>
