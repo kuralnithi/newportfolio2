@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import pdf from './kuralcvguvi.pdf'
+import pdf from '../assets/kuralcvguvi.pdf'
 import Typed from 'typed.js'
 
 function Hero(props) {

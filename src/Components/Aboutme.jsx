@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './kuralcvguvi.pdf'
+import pdf from '../assets/kuralcvguvi.pdf'
 
 function Aboutme(props) {
     return (
