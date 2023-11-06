@@ -230,7 +230,7 @@ function Projects(props) {
                                 <div className="project-links">
 
                                     <a href="https://github.com/kuralnithi/assign-mentor.git" className="card-link project-link" target="_blank">Back-end Source code</a>
-                                    <a href="https://assign-mentor-dp46.onrender.com/api/mentors/getmentor" className="card-link project-link" target="_blank">Back-end Deployed URL</a>
+                                    <a href="https://assign-mentor-dp46.onrender.com/" className="card-link project-link" target="_blank">Back-end Deployed URL</a>
                                 </div>
                             </div>
                         </div>
