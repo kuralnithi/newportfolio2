@@ -257,7 +257,7 @@ function Projects(props) {
 
                                         <a href="https://password-reset-kuralnithi.netlify.app" className="card-link project-link" target="_blank">Front-end Deployed URL</a>
 
-                                        <a href="Back-end Deployed URL "
+                                        <a href="https://password-reset-ze4r.onrender.com"
                                             className="card-link project-link"
                                             target="_blank">Back-end Deployed URL
                                         </a>
