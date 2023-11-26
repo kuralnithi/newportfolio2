@@ -10,6 +10,7 @@ import portfolio from '../projectScreenshots/portfolio.png'
 import qrgen from '../projectScreenshots/qr-gen.png'
 import restaurent from '../projectScreenshots/restaurent.png'
 import api from '../projectScreenshots/api.jpg'
+import flight from '../projectScreenshots/Flight.png'
 // import travel from '../projectScreenshots/travel.png'
 
 function Projects(props) {
@@ -35,6 +36,37 @@ function Projects(props) {
                     </div>
  */}
 
+
+                    <div className="col-md-4">
+                        <div className="card project-card">
+                            <div className="card-body">
+                                <h3 className="card-title mb-3 project-name fs-6 ">Flight ticket booking app  </h3>
+
+                                <div className="img">  <img src={flight} style={{ width: '100%', height: '100%', borderRadius: '20px' }} /></div>
+
+
+                                <div className="project-links">
+                                    <div className='d-flex loginpagelink'>
+                                        <a href="https://github.com/kuralnithi/FlightTicketBookingApp-Frontend.git" className="card-link project-link" target="_blank">Front-end Source code</a>
+
+                                        <a href="https://github.com/kuralnithi/FlightTicketBookingApp-Backend.git" className="card-link project-link" target="_blank">Back-end Source code</a>
+                                    </div>
+                                    <div className='d-flex loginpagelink'>
+
+                                        <a href="https://skyways-kural.netlify.app/" className="card-link project-link" target="_blank">Front-end Deployed URL</a>
+
+                                        <a href="https://fligthback.onrender.com/"
+                                            className="card-link project-link"
+                                            target="_blank">Back-end Deployed URL
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
                     <div className="col-md-4">
                         <div className="card project-card">
                             <div className="card-body">
