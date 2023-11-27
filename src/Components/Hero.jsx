@@ -32,14 +32,14 @@ useEffect(()=>{
             <div className="container-fluid textarea ">
 
 
-                <span ref={el} className='typed text-center '></span>
+                <div ref={el} className='typtxt typed text-center '></div>
 
                 
 
 
 
 
-                    <a href="https://drive.google.com/file/d/1wcBjk_jzejTEKy-hJVtBQqpxkWbQmEbG/view?usp=drive_link" download="KuralNithi_Resume.pdf" className="btn btn-download resume"  data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
+                    <a href="https://dicegame-kuralnithi.netlify.app/dicegame/dicegame.html" download="KuralNithi_Resume.pdf" className="btn btn-download resume"  data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
               
 
             </div>

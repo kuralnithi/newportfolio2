@@ -1,7 +1,7 @@
 import { Route, Routes,Link } from 'react-router-dom'
-import AnimatedCursor from "react-animated-cursor"
+// import AnimatedCursor from "react-animated-cursor"
 // import { Cursor } from 'react-creative-cursor';
-import 'react-creative-cursor/dist/styles.css';
+// import 'react-creative-cursor/dist/styles.css';
 
 import './App.css'
 import Hero from './Components/Hero'
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-   <AnimatedCursor  
+   {/* <AnimatedCursor  
       innerSize={20}
       outerSize={25}
       color='255, 204, 51'
@@ -35,7 +35,7 @@ function App() {
         '.link'
       ]}
     />
-      
+       */}
 
       {/* <Cursor isGelly={true} animationDuration={0.7} cursorBackgrounColor="#98FF98" exclusionBackgroundColor="#" cursorInnerColor="#"  /> */}
 

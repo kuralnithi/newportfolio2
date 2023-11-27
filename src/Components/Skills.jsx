@@ -21,7 +21,7 @@ function Skills(props) {
     
     
     
-        <div className='skillpage'>
+        <div className='container-fluid skillpage text-center'>
             
 
             <div className="container-fluid text-center ">
