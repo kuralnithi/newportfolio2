@@ -23,7 +23,6 @@ function Skills(props) {
     
         <div className='container-fluid skillpage text-center'>
             
-
             <div className="container-fluid text-center ">
                 <h1 className='p-5'>My Skills</h1>
                 <ul className="list-group">

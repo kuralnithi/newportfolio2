@@ -70,9 +70,11 @@ h3 {
 }
 
 .skillpage {
+ 
   background: url(./projectScreenshots/skillbg.jpg);
   height: 100vh;
   width: 100vw;
+
 }
 
 .skillpage h1 {
@@ -91,13 +93,21 @@ margin-top: 2px;
 
 
 .projectpage {
+ 
   height: 100vh;
   width: 100vw;
   background: url(./projectScreenshots/portbg.png);
   overflow: scroll;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
+
+
+
+
+
+
 
 .projectpage h1 {
 
@@ -275,11 +285,18 @@ width: 60%;
 
 }
 
-@media screen and (max-width:533px) {
+@media (max-width:533px) {
 
   .hometxt{
-
 font-size:400%;
 
   }
+}
+
+@media (max-width:750px) {
+
+.about-description{
+  width: 90%;
+font-size: 19px;
+}
 }
