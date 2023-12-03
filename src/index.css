@@ -82,9 +82,10 @@ color: antiquewhite
 }
 
 .skillpage li {
-position: relative;
-left: 10%;
-    width: 90%;
+width: 50%;
+margin: auto;
+border-radius: 40px 40px 40px 40px;
+margin-top: 2px;
 }
 
 
