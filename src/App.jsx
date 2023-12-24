@@ -1,17 +1,26 @@
 import { Route, Routes,Link } from 'react-router-dom'
+import { Suspense, lazy } from 'react';
 // import AnimatedCursor from "react-animated-cursor"
 // import { Cursor } from 'react-creative-cursor';
 // import 'react-creative-cursor/dist/styles.css';
 
 import './App.css'
-import Hero from './Components/Hero'
-import Skills from './Components/Skills'
-import Projects from './Components/Projects'
-import Aboutme from './Components/Aboutme'
-import Contact from './Components/Contact'
+const Hero = lazy(()=>import( './Components/Hero.jsx'));
+const Skills =lazy(()=>import('./Components/Skills.jsx'));
+const Projects =lazy(()=>import('./Components/Projects.jsx'));
+const Aboutme =lazy(()=>import('./Components/Aboutme.jsx'));
+const Contact =lazy(()=>import('./Components/Contact.jsx'));
 
 function App() {
 
+let routes =
+<Routes>
+  <Route path='/' Component ={Hero} />
+  <Route path='/Skills' Component={Skills}  />
+  <Route path='/Projects' Component={Projects } />
+  <Route path='/About' Component={ Aboutme } />
+<Route path='/Contact' Component={Contact } />
+</Routes >
   return (
     <>
    {/* <AnimatedCursor  
@@ -64,27 +73,16 @@ function App() {
               <li className="nav-item  mx-5" >
                 <Link to="/Contact " className="nav-link" href="#" tabIndex="-1" aria-disabled="true"data-cursor-color="#61dbfb">Contact</Link>
               </li>
-
-
             </ul>
           </div>
         </div >
       </nav >
 
+  <Suspense fallback={<div>loading</div>}>
+    {routes}
+  </Suspense>
+          
 
-
-
-
-
-      <Routes>
-        <Route path='/' element={<Hero />} />
-        <Route path='/Skills' element={<Skills />} />
-        <Route path='/Projects' element={<Projects />} />
-        <Route path='/About' element={ <Aboutme />} />
-      < Route path='/Contact' element={< Contact />} />
-
-
-    </Routes >
     </>
   )
 }
