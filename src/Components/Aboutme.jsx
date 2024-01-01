@@ -13,7 +13,7 @@ function Aboutme(props) {
                 </p>
 
                 <div className="download-button-container">
-                    <a href='https://drive.google.com/file/d/1kXgembPhoNi6_G5WvbSHIAfLa7D8HkLX/view?usp=drive_link' class="btn btn-download" data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
+                    <a href='https://drive.google.com/file/d/1jHgBp2eYD6IYjZlGlsPI9yyyKhtLdS_I/view?usp=sharing' class="btn btn-download" data-cursor-magnetic data-cursor-color="#61dbfb">Download Resume</a>
                 </div>
 
             </div>
